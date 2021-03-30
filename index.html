@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon blog</title>
+	
+	<link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+
+<script >
+	var mysong=document.getElementById("mysong");
+	var icon=document.getElementById("icon");
+	icon.onclick=function(){
+		if(mysong.paused){
+			mysong.play();
+			icon.src="img/image8.jpg";
+		}else{
+			mysong.paused();
+			icon.src="img/image7.jpg";
+		}
+		
+	}
+</script>	
+
+
+
+</body>
+</html>
